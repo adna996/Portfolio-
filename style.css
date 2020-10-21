@@ -1,0 +1,442 @@
+body{
+  background-color: #cc2543;
+}
+
+.fav{
+  width:30px;
+  height:30px;
+}
+
+.nav-link{
+  color:white;
+}
+
+.nav-link:active{
+  background-color: #cc2543;
+}
+.nav-link:hover{
+  color: white;
+}
+.nav-link:visited{
+  background-color: #cc2543;
+}
+
+.navbar{
+  background-color: #e35049;
+  font-family: courier,arial,helvetica; 
+  color: white; 
+  font-size: 1.3rem;
+}
+
+.nav{
+  font-family: courier,arial,helvetica; 
+  color: white; 
+  font-size: 1.3rem;
+  top: 0.1rem; 
+  margin: 0;
+}
+
+#card-okvir{
+  max-width: 1900px; 
+  height: 500px; 
+  background-color: #cc2543; 
+  border: 10px dotted #e35049;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 90px;
+  float: left;
+}
+
+#card-body{
+  text-align: center;
+}
+
+#card-text{
+  font-family: courier,arial,helvetica; 
+  color: white; 
+  font-size: 90px; 
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:-20%;
+
+}
+
+#biog{
+  max-width:300px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #e35049;
+  border:none;
+  padding: 14px 40px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: courier,arial,helvetica; 
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 3px;
+
+}
+
+#biog a{
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+}
+
+.naslov{
+  font-family: courier,arial,helvetica; 
+  font-size: 45px;
+  padding: 35px;
+  text-align: center;
+  color: #F8F9F9;
+}
+
+/*Responsive gallery: https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive*/
+
+div.galerija2{
+  text-align: center;
+  margin: 45px;
+  border:3px solid white;
+  float: left;
+  width: 600px;
+  height: 570px;
+  background-color: white;
+  margin-left: 85px;
+}
+
+div.galerija2:hover{
+  border:1.5px solid #cc2543;
+}
+
+div.galerija2 img{
+  width: 594px;
+  height: 500px;
+}
+
+div.opis{
+  padding: 20px;
+  font-family: courier,arial,helvetica; 
+  font-size: 25px;
+  text-align: center;
+  color: #e35049;
+}
+
+.card{
+  background-color: #cc2543;
+  margin-top: 160px;
+  margin-left: 100px;
+  float: left;
+  border: 1.5px solid #e35049;
+  border-radius: 5px;
+  width: 40%;
+  height: 190%;
+}
+
+
+input[type=text],textarea{
+  font-family: courier,arial,helvetica; 
+  width: auto;
+  height: 190%;
+  border: 1px solid #e35049;
+  margin-top: 5px;
+  margin-bottom: 16px;
+  resize: horizontal;
+  background-color: #e35049; 
+  color: white;
+}
+
+input[type=e-mail]{
+  font-family: courier,arial,helvetica; 
+  width: auto;
+  height: 190%;
+  border: 1px solid #e35049;
+  margin-top: 5px;
+  margin-bottom: 16px;
+  resize: horizontal;
+  background-color: #e35049;
+  color:#f0ede4;
+}
+
+
+::placeholder{
+  color: #f0ede4;
+}
+
+input[type=submit]{
+  float: left;
+  background-color: #cc2543;
+  color:#f0ede4;
+  opacity: 0.9;
+  border:none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+  background-color: #e35049;
+}
+
+#hello{
+  text-align: left;
+  color: rgb(217, 217, 217);
+  font-family: courier,arial,helvetica; 
+  font-size: 65px;
+}
+
+#free{
+  text-align: left;
+  color: rgb(217,217,217);
+  font-family: courier, arial,helvetica;
+  font-size: 20px;
+}
+
+#mail{
+  text-align: left;
+  color: rgb(217,217,217);
+  font-family: courier, arial,helvetica;
+  font-size: 13px;
+}
+
+.mreze{
+  text-align: center;
+  opacity: 0.8;
+  word-spacing: 45px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+
+header{
+  color: #E5E3E3;
+  text-align: center;
+  margin: 25px;
+}
+
+#blog1,#blog2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post{
+  font-family: Raleway, sans-serif;
+  background-color: white;
+  color: #e35049;
+  text-align: left;
+  margin-top:55px;
+  margin-left: 50px;
+  border:4px dashed #cc2543;
+  border-radius: 4px;
+  width: 650px;
+  float: left;
+}
+
+
+.tekstic{
+  font-family: Raleway, sans-serif;
+  color: black;
+  text-align: left;
+}
+
+.video{
+  width: 600px;
+  height: 400px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* responsive video iframe: https://stackoverflow.com/questions/17838607/making-an-iframe-responsive*/
+
+.video iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:600px;
+  height: 400px;
+}
+
+#blogtabela ul li a{
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  color: black;
+  text-align: left
+}
+
+#blogtabela li a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+#blogtabela{
+  font-family: Raleway, sans-serif;
+  color: black;
+  background-color: rgb(235, 198, 52);
+  border:1.5px solid white;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#blogtabela th, #blogtabela tr, #blogtabela td{
+  border: 1px solid white;
+  padding: 8px;
+  text-align: center;
+}
+
+#blogtabla td{
+  text-align: center;
+}
+
+#slikaDS{
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 450px;
+}
+
+#naslovb{
+  background-color: #cc2543;
+  font-family: courier,arial,helvetica; 
+  color: white; 
+  font-size: 55px;
+  text-align: center;
+  margin:35px;
+}
+
+.post2link a{
+  text-decoration: none;
+  color: black;
+}
+
+#ja{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  margin: 3px 50px 50px 0;
+
+}
+
+hr{
+  border-top: 1.5px solid white;
+  width: 70%;
+}
+
+.naslovt{ 
+  font-family: courier,arial,helvetica; 
+  color: white; 
+  font-size: 20px;
+  float: left;
+  margin: 8%;
+  }
+
+.naslovt p{
+  text-align: justify;
+  line-height: 22px;
+}
+
+#skills{
+  box-sizing: border-box;
+  border: 2px solid white;
+  float: left;
+  margin-left: 35%;
+  margin-top: -7vw;
+  width: 35vw;
+}
+
+#sk{
+  text-align: center;
+  font-family: courier,arial,helvetica; 
+
+}
+
+#ikone{
+  margin-left: 50px;
+  font-family: courier,arial,helvetica; 
+  font-size: 22px;
+
+}
+
+#naslovcic{
+  width: 90vw;
+  margin-left: 5vw;
+  float: left;
+  text-align: center;
+  font-family: courier,arial,helvetica; 
+  font-size: 85px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.projekat1{
+  width: 90vw;
+  margin-left: 5vw;
+  float: left;
+  color: white;
+  border-bottom: 1px solid white;
+  font-family: courier,arial,helvetica; 
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.projekat1 h2{
+  text-align: center;
+  font-size: 45px;
+}
+
+.projekat1 h3{
+  text-align: left;
+}
+
+#hs{
+  width: 40%;
+}
+
+.projekat2{
+  width: 90vw;
+  margin-left: 5vw;
+  float: left;
+  color: white;
+  border-bottom: 1px solid white;
+  font-family: courier,arial,helvetica; 
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.projekat2 h2{
+  text-align: center;
+  font-size: 45px;
+}
+
+.projekat2 h3{
+  text-align: left;
+}
+
+.galerija3{
+  float: left;
+  margin-left: 25px;
+}
+
+.isl1{
+  width: 40%;
+  height: 55%;
+}
+
+.blognaslov{
+  font-family: Raleway, sans-serif;
+}
+
+.slikegal2{
+  width: 700px;
+  height: 600px;
+}

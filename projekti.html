@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Adna Čengić | Portofolio</title>
+	<link rel="shortcut icon" type="image/png" href="slike/favicon.png" sizes="200x200">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+		<nav class="navbar">
+      <img src="slike/favicon.png" alt="" class="fav">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"href="biografija.html">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projekti.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html" >Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galerija1.html">Gallery1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galerija2.html">Gallery2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="kontakt.html">Contact</a>
+        </li>
+    </ul>
+  </nav>
+
+  <div id="projket">
+    <div>
+      <h1 id="naslovcic">PROJECTS</h1>
+    </div>
+
+    <div class ="projekat1">
+      <h2>HANGMAN</h2>
+      <br/>
+      <h3>About HANGMAN</h3>
+      <p>
+        <!-- Link za dio teksta :
+            https://en.wikipedia.org/wiki/Hangman_(game)
+         -->
+        Hangman is a word guessing game in which you must guess word as you 
+        can faster. If the woord is correct the game is over and yeees, the 
+        guesser wins. On the other hand, if player makes enough incorrect guesses 
+        theh he is the loser. Firstly, hangamn was paper and pencil guessing game for 
+        two or more players. But now we can find this game online and play it. 
+      </p><br/>
+      <img src="slike/hangman.png" id="hs"> 
+      <br/><br/>
+      <h3>How I made it?</h3>
+      <p>
+        Firstly, I created this game in Python programing language. I used basic methods for creating. I createed several categories for guessing (such as
+        music, movies, cities, and much more). All of these categories were filled 
+        with words (separately). After that I created guessing form, where user have to input letter. If the input is correct than the letter is placed where it 
+        should be. But if the input isn't correct than the program begins with drawing. With every incorrect input the program  draws line by line. If the word is correct than the program prints a message "Congratulations!You are the winner!". On the other hand message is "Oppps :( you last this game. Do you want to play again?"
+      </p><br/>
+      <h3>Interface</h3>
+      <div class="galerija3">
+        <img src="slike/h1.png" class="isl1">
+        <p><strong>Category Cities</strong></p>
+        <img src="slike/h2.png" class="isl1">
+        <p><strong>Category Cities</strong></p>
+      </div>
+    </div>
+    <div class="projekat2">
+      <h2>CONVEX HULL ALGORITHMS</h2> <br/>
+      <h3>What is convex hull alogrithm?</h3>
+      <p>
+        <!-- Link za dio teksta preuzet sa interneta:
+            https://www.geeksforgeeks.org/convex-hull-set-1-jarviss-algorithm-or-wrapping/
+         -->
+        The concept of convex hull algorithms is intuitive. We have a set P of n points. We want to calculate somthing called convex hull of set P. So, Convex Hull is the line completely enclosing a set of points in a plane so that there are no concavities in the line. More formally, we can describe it as the smallest convex polygon which encloses a set of points such that each point in the set lies within the polygon or on its perimeter. 
+        There is few algorithm who can solve this problem but the most common are:
+        <ul>
+          <li>Gift wrapping</li>
+          <li>Quickhull alogirthm</li>
+          <li>Jarvis March alogrithm</li>
+          <li>Graham Scan algorithm</li>
+          <li>Chan's algorithm.</li>
+        </ul>
+        I have worked on Graham scan, Chan's  and Jarvis algorithms. Here you can find my implementation for these algorithms. 
+      </p>
+      <h3>Implementation</h3><br/>
+      <div class="galerija3">
+        <img src="slike/graham.png" class="isl">
+        <p><strong>Graham scan algorithm</strong></p>
+      </div>
+      <div class="galerija3"><img src="slike/chan.png" class="isl">
+        <p><strong>Chan's algorithm</strong></p>
+      </div>
+      <div class="galerija3"><img src="slike/jarvis.png" class="isl">
+        <p><strong>Jarvis algorithm</strong></p>
+      </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
